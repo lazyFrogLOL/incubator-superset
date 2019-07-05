@@ -20,7 +20,7 @@ services:
     image: redis:3.2
     restart: unless-stopped
     ports:
-      - 6379:6379
+      - 6379:6=79
     volumes:
       - redis:/data
 
